@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+/* Write CSS Here */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trirong", serif; 
+
+}
+body {
+    background: rgb(161, 169, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background: white;
+margin: 70px;
+display: grid;
+grid-template-columns: 0.9fr 2fr;
+
+}
+.container .left_side
+{
+position: relative;
+background: lightgrey;
+padding: 40px;
+}
+
+.image
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(45, 108, 132);
+}
+.container .image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+ }
+ .fa-linkedin
+  {
+    background: #007bb5;
+    color: white;
+  }
+.container .right
+{
+    margin: 20px;
+position: relative;
+background: white;
+padding: 40px;
+}
